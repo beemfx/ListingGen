@@ -1,0 +1,160 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TITLEDESC DIALOG DISCARDABLE  0, 0, 402, 236
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Move Listing Generator"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Next",IDC_NEXT,336,216,50,14
+    PUSHBUTTON      "Previous",IDC_PREV,282,216,50,14,WS_DISABLED
+    LTEXT           "Movie Title:",IDC_STATIC,25,15,38,8
+    LTEXT           "Movie Type:",IDC_STATIC,25,45,40,8
+    LTEXT           "Movie Description:",IDC_STATIC,5,75,60,8
+    EDITTEXT        IDC_ITEMNAME,70,15,295,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ITEMTYPE,70,45,295,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MOVIEDESC,70,75,295,40,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+    LTEXT           "Item Condition:",IDC_STATIC,10,130,48,8
+    EDITTEXT        IDC_CONDITION,70,130,295,35,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+END
+
+IDD_SHIPPAY DIALOG DISCARDABLE  0, 0, 402, 236
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Move Listing Generator"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Next",IDC_NEXT,336,216,50,14
+    PUSHBUTTON      "Previous",IDC_PREV,282,216,50,14
+    GROUPBOX        "Shipping Information",IDC_STATIC,10,10,380,105
+    RTEXT           "Cost:",IDC_STATIC,30,30,37,8
+    RTEXT           "Shipping Info:",IDC_STATIC,15,55,50,8
+    EDITTEXT        IDC_COST,75,25,265,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SHIPINFO,75,50,265,55,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+    GROUPBOX        "Payment Options",IDC_STATIC,10,130,380,74
+    EDITTEXT        IDC_PAYOPTION,20,140,360,58,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+END
+
+IDD_TERMS DIALOG DISCARDABLE  0, 0, 402, 236
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Move Listing Generator"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Finish",IDC_NEXT,336,216,50,14
+    PUSHBUTTON      "Previous",IDC_PREV,282,216,50,14
+    GROUPBOX        "Terms and Conditions",IDC_STATIC,15,15,370,190
+    RTEXT           "Shipping:",IDC_STATIC,30,35,40,8
+    RTEXT           "Feedback:",IDC_STATIC,25,95,45,8
+    RTEXT           "Warranty:",IDC_STATIC,30,150,40,8
+    EDITTEXT        IDC_TERMSHIP,75,30,295,50,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+    EDITTEXT        IDC_TERMFEEDBACK,75,90,295,50,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    EDITTEXT        IDC_TERMWARRANTY,75,145,295,50,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_TITLEDESC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 395
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 229
+    END
+
+    IDD_SHIPPAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 395
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 229
+    END
+
+    IDD_TERMS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 395
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 229
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
