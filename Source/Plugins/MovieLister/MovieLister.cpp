@@ -34,7 +34,7 @@ CLister * ObtainLister()
 ///////////////////////////////////////
 
 // Callback for the terms. //
-BOOL CALLBACK Terms(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+INT_PTR CALLBACK Terms(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
 	static CGameLister * lpLister=NULL;
 
@@ -110,7 +110,7 @@ BOOL CALLBACK Terms(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 }
 
 // Callback to acquire shipping and payment info. //
-BOOL CALLBACK ShipPay(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+INT_PTR CALLBACK ShipPay(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
 	static CGameLister * lpLister=NULL;
 
@@ -188,7 +188,7 @@ BOOL CALLBACK ShipPay(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 
 // Callback to acquire title, type, and descriptions. //
-BOOL CALLBACK TitleDesc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+INT_PTR CALLBACK TitleDesc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
 	static CGameLister * lpLister=NULL;
 
@@ -272,7 +272,7 @@ BOOL CALLBACK TitleDesc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 BOOL CGameLister::RunDialog(HWND hwndParent)
 {
 	DLGSCREENS nScreen=SCREEN_TITLEDESC;
-	int nResult=0;
+	INT_PTR nResult=0;
 
 	SetRect(&g_rcWindow, 0, 0, 609, 409);
 

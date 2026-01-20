@@ -126,10 +126,10 @@ public:
 	BOOL SetWarrantyTerms(LPSTR szWarrantyTerms);
 
 	//Friend Functions.
-	friend BOOL CALLBACK TitleDesc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
-	friend BOOL CALLBACK SysRequire(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
-	friend BOOL CALLBACK ShipPay(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
-	friend BOOL CALLBACK Terms(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
+	friend INT_PTR CALLBACK TitleDesc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
+	friend INT_PTR CALLBACK SysRequire(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
+	friend INT_PTR CALLBACK ShipPay(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
+	friend INT_PTR CALLBACK Terms(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
 
 };
 

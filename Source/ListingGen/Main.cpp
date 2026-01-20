@@ -100,7 +100,7 @@ BOOL PopulateListboxWithPlugins(HWND hwnd, int nIDDlgItem)
 	return TRUE;
 }
 
-BOOL CALLBACK PluginSelect(
+INT_PTR CALLBACK PluginSelect(
 	HWND hwnd, 
 	UINT uMsg, 
 	WPARAM wParam, 

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{bdd6c9fc-cd32-4da8-be01-87523c37a421}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Plugins\MovieLister\Lister.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Plugins\MovieLister\MovieLister.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Plugins\MovieLister\resource.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Plugins\MovieLister\Main.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Plugins\MovieLister\MovieLister.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Plugins\MovieLister\MovieLister.def">
+      <Filter>Source</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\Plugins\MovieLister\MovieLister.rc">
+      <Filter>Source</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
